@@ -1,0 +1,29 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemalocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelversion>4.0.0</modelversion>
+
+    <groupid>com.alfors.helloworld</groupid>
+    <artifactid>edu.ilovejava</artifactid>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>SpringBatch</name>
+    <url>http://maven.apache.org</url>
+
+    <!--<properties>-->
+        <!--<project .build.sourceencoding=".build.sourceencoding">UTF-8</project>-->
+    <!--</properties>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-core</artifactId>
+            <version>2.1.9.RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
